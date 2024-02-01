@@ -62,8 +62,8 @@ int soilMoistureValue = 0;
 float soilMoisturePercent = 0;
 
 // The (initial) threshold of moisture that triggers addition of water
-//  this can be changed by used the up/down buttons
-// Pritty important to optimise this one for each soil and/or plant sort! (currently for an olive tree initialised at 37% moisture)
+//  this can be changed by using the up/down buttons
+//  important to optimise this one for each soil and/or plant sort! (currently for an olive tree initialised at 37% moisture)
 float thresholdAddWater = 37.00;
 
 // We use a small water pump to feed the plant, it's controlled via a relay
